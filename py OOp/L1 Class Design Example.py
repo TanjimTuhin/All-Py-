@@ -1,4 +1,4 @@
-'''Example 1'''
+'''=========== Example 1 ===================================='''
 
 class Employee:
 #parameterized constructor
@@ -16,7 +16,7 @@ emp2=Employee ("David", 12) #instance 2
 emp1.display()
 emp2.display()
 
-""" Example 2 """
+""" ============ Example 2 ===================================="""
 class Car:
     # Class attribute
     wheels = 4
