@@ -1,11 +1,11 @@
-"""class object attribute method constructor argument parameter"""
+"""class object attribute method constructor argument parameter instance_variable"""
 
 class Car:
     # This is the initializer method where we define the attributes of the Car class.
     # Constructor method
     def __init__(self, make, model, year, color): #make,model,year,color -> parameter
         # Attributes of the Car class
-        self.make = make    # Car's brand
+        self.make = make    # Car's brand #instance variable
         self.model = model  # Car's model
         self.year = year    # Year of manufacture
         self.color = color  # Car color
