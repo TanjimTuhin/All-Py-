@@ -1,6 +1,8 @@
 """Class Object Constructor attributes methods"""
+"""By creating parameter"""
 class Student:
-    def __init__(self,name,id): #name,id ->attribute
+    def __init__(self,name,id): 
+        #name,id ->attribute of student
         self.name = name   #instance variable
         self.id = id       #instance variable
         #print('a student object created')
