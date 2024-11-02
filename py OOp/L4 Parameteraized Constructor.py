@@ -1,6 +1,6 @@
 """Class Object Constructor attributes"""
 class Student:
-    def __init__(self,name,id):
+    def __init__(self,name,id): 
         self.name = name   #instance variable
         self.id = id       #instance variable
         #print('a student object created')
