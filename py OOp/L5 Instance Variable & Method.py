@@ -1,5 +1,5 @@
 """Class Object Constructor attributes methods"""
-"""By creating parameter"""
+"""By creating argument & parameter"""
 class Student:
     def __init__(self,name,id): 
         #name,id ->attribute of student

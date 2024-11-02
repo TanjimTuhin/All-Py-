@@ -2,6 +2,7 @@
 
 class Car:
     # This is the initializer method where we define the attributes of the Car class.
+    # Constructor method
     def __init__(self, make, model, year, color): #make,model,year,color -> parameter
         # Attributes of the Car class
         self.make = make    # Car's brand
