@@ -21,4 +21,4 @@ class Test3:
         
 t3=Test3() #creating object
 t3.methodA() #calling method
-#t3.methodA() #calling method
+t3.methodA() #calling method
