@@ -3,7 +3,7 @@ class Test3:
         self.sum, self.y= 0, 0
     def methodA(self):
         x, y =2, 3
-        msg=[0]
+        msg=[0]   #list use korle valo kore bujha jabe
         msg[0]=3
         y=self.y+msg[0]
         self.methodB(msg, msg[0])
