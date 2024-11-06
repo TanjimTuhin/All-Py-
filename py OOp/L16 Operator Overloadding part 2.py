@@ -27,6 +27,16 @@ class House:
     def view(self):
         print("The house has", self.window,
               "windows and", self.door, "doors")
-
+    def __add__(self,other):
+        new_window=self.window + other.window
+        new_door  =self.door   + other.door
+        obj=House(new_window,new_door)   #creating new object of new_house
+        return obj
+        return "New house has "+str(new_window)+ " windows and "+str(new_door)+ " doors "
 h1=House(6,2)
 h2=House(4,1)
+h1.view() 
+h2.view()
+print(h1+h2) #h1.__add__(h2)
+h3=h1+h2
+h3.view()
