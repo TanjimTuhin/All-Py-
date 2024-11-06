@@ -64,7 +64,7 @@ class data:
             return "not equal"
 num1 = data(30)
 num2 = data(30)
-print(num1==num2) #num1.__eq__(num2) #===============Output: Both are equal
+print(num1==num2) #num1.__eq__(num2) #===============Output:Both are equal
             
 
             
