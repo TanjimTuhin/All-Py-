@@ -1,4 +1,4 @@
-"""Getter setter method================="""
+"""Getter setter method=> Update private variable in a class================="""
 class Student:
     def __init__(self, name, id):
         self.name = name     #instance variable
