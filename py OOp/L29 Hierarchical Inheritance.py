@@ -12,7 +12,8 @@ class CSEStudent(Student):
         super().__init__(name, id)  #[self.name = name] [self.id = id]
         self.lab = lab
     def cry(self):
-        print("CSE Student is cryin caz of",self.lab,' labs')
+        print("CSE Student ",self.name, 
+              "is cryin caz of",self.lab,' labs')
 
 class BBAStudent(Student):
     def party(self):
