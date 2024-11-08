@@ -17,4 +17,9 @@ my_dog.bark()
 my_dog.eat()
 
 animal1.eat()
-#animal1.bark()        #AttributeError: 'Animal' object has no attribute 'bark'  
+#animal1.bark()        #AttributeError: 'Animal' object has no attribute 'bark'
+
+#isinstance(object,ClassName) ->returns True if object is an instance or subclass of ClassName
+print(isinstance(my_dog, Dog)) #True
+#issubclass(Class,classname) ->returns True if Class is a subclass of classname
+print(issubclass(Dog, Animal)) #True
