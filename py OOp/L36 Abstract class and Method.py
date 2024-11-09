@@ -19,7 +19,7 @@ class pizza(food):
 #rule3: As pizza class derived from food class and didn't overwrite 
 #       taste method so pizza is now a abstract class
     def taste(self):
-        print("Pizza is tasty")  #overwriting taste method
+        print("Pizza is tasty")  #overwriting taste method so it's now a concreate class
 
 
 p=pizza()
