@@ -32,7 +32,7 @@ while count<6:
         continue
     print("continue: ",count)
 
-#nested loop-------------------------------
+#nested
 outer=1
 while outer<=5:
     #outer+=1          #outer starts with 2
