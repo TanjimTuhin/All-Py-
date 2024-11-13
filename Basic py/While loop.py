@@ -1,38 +1,38 @@
-# """While Loop-------------------------------------"""
+"""While Loop-------------------------------------"""
 
-# # 1. Initial value
-# # 2. Condition
-# # 3. Block of code
-# # 4.Increment/Decrement
+# 1. Initial value
+# 2. Condition
+# 3. Block of code
+# 4.Increment/Decrement
 
-# count=1
-# while (count<=50):
-#     if (count%2==0):
-#         print(count,"is even")
-#     else:
-#         pass
-#     count+=1
-# print("Good bye")
+count=1
+while (count<=50):
+    if (count%2==0):
+        print(count,"is even")
+    else:
+        pass
+    count+=1
+print("Good bye")
     
 """Nested While-----------------------------------"""
 
-# #break statement----------------------
-# count=1
-# while True:
-#     print("Break",count)
-#     count+=1
-#     if count==6:
-#         break
+#break statement---------------------------
+count=1
+while True:
+    print("Break",count)
+    count+=1
+    if count==6:
+        break
 
-# #continue statement-------------------
-# count=0
-# while count<6:
-#     count+=1
-#     if count==3:
-#         continue
-#     print("continue: ",count)
+#continue statement=just skip that part----
+count=0
+while count<6:
+    count+=1
+    if count==3:
+        continue
+    print("continue: ",count)
 
-
+#nested loop-------------------------------
 outer=1
 while outer<=5:
     #outer+=1          #outer starts with 2
